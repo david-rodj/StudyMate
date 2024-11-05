@@ -11,7 +11,7 @@ class CreateAssignmentModel extends FlutterFlowModel<CreateAssignmentWidget> {
   FocusNode? assignmentNameFocusNode;
   TextEditingController? assignmentNameTextController;
   String? Function(BuildContext, String?)?
-      assignmentNameTextControllerValidator;
+  assignmentNameTextControllerValidator;
   String? _assignmentNameTextControllerValidator(
       BuildContext context, String? val) {
     if (val == null || val.isEmpty) {
@@ -27,7 +27,7 @@ class CreateAssignmentModel extends FlutterFlowModel<CreateAssignmentWidget> {
   FocusNode? assignmentDescriptionFocusNode;
   TextEditingController? assignmentDescriptionTextController;
   String? Function(BuildContext, String?)?
-      assignmentDescriptionTextControllerValidator;
+  assignmentDescriptionTextControllerValidator;
   // State field(s) for AssignmentDificulty widget.
   double? assignmentDificultyValue;
   // State field(s) for AssignmentType widget.
